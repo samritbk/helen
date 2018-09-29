@@ -10,9 +10,7 @@ class App extends Component {
             <div className="menuWrapper right">
             <ul className="menu">
               <a href="#"><li>Home</li></a>
-              <a href="#"><li>Services</li></a>
               <a href="#"><li>About</li></a>
-              <a href="#"><li>Contact</li></a>
               <div className="clear"></div>
             </ul>
           </div>
