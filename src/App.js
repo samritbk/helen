@@ -6,7 +6,7 @@ class App extends Component {
       <div className="App">
         <div className="header">
           <div className="marginedInner80">
-            <div className="left logo"><b>YOUR LOGO HERE</b></div>
+            <div className="left logo"><b>HELEN</b></div>
             <div className="menuWrapper right">
             <ul className="menu">
               <a href="#"><li>Home</li></a>
