@@ -1,83 +1,64 @@
 import React, { Component } from 'react';
 import './css/style.css';
+import TopFlash from './components/TopFlash';
+import TopBar from './components/TopBar';
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="header">
-          <div className="marginedInner80">
-            <div className="left logo"><b>HELEN</b></div>
-            <div className="menuWrapper right">
-            <ul className="menu">
-              <a href="#"><li>Home</li></a>
-              <a href="#"><li>About</li></a>
-              <div className="clear"></div>
-            </ul>
-          </div>
-          <div className="clear"></div>
-          </div>
-          <div className="clear"></div>
+        <TopBar/>
+        <TopFlash/>
+      <div className="content">
+        <div className="sectionTitle">
+          Overview
         </div>
-        <div className="topHeader">
-          <div className="moto">
-            <div className="midText">
-            <div className="mottoStyle">I am Helen Mehari</div><div className="clear"></div>
-            <div className="typer mottoStyle marginMiddleMotto mottoSmall">Network Security</div><div className="clear"></div>
-            <div className="mottoStyle mottoSmall">Professional</div><div className="clear"></div>
+        <div className="marginedInner90">
+          <div className="col-3">
+            <div className="marginedInner90">
+              <div className="intro">
+                <span className="ion-eye ion"/>
+              </div>
+              <div className="inner-text-title">Vision</div>
+              <div className="intro-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.Mauris ultrices odio vitae nulla ultrices iaculis.
+              </div>
+              <a href="#">
+                <div className="learn-more">
+                Learn More
+                </div>
+              </a>
+            </div>
           </div>
-        </div>
-        </div>
-        <div className="content">
-      <div className="sectionTitle">
-        Overview
-      </div>
-      <div className="marginedInner90">
-        <div className="col-3">
+          <div className="col-3">
           <div className="marginedInner90">
             <div className="intro">
-              <span className="ion-eye ion"/>
+              <span className="ion-code ion"/>
             </div>
-            <div className="inner-text-title">Vision</div>
+            <div className="inner-text-title">Services</div>
             <div className="intro-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.Mauris ultrices odio vitae nulla ultrices iaculis.
             </div>
-            <a href="#">
-              <div className="learn-more-style">
+            <div className="learn-more-style">
               Learn More
-              </div>
-            </a>
+            </div>
           </div>
+          </div>
+          <div className="col-3">
+          <div className="marginedInner90">
+            <div className="intro">
+              <span className="ion-information ion"/>
+            </div>
+            <div className="inner-text-title">About</div>
+            <div className="intro-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.Mauris ultrices odio vitae nulla ultrices iaculis.
+            </div>
+            <div className="learn-more-style">
+              Learn More
+            </div>
+          </div>
+          </div>
+          <div className="clear"></div>
         </div>
-        <div className="col-3">
-        <div className="marginedInner90">
-          <div className="intro">
-            <span className="ion-code ion"/>
-          </div>
-          <div className="inner-text-title">Services</div>
-          <div className="intro-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.Mauris ultrices odio vitae nulla ultrices iaculis.
-          </div>
-          <div className="learn-more-style">
-            Learn More
-          </div>
-        </div>
-        </div>
-        <div className="col-3">
-        <div className="marginedInner90">
-          <div className="intro">
-            <span className="ion-information ion"/>
-          </div>
-          <div className="inner-text-title">About</div>
-          <div className="intro-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.Mauris ultrices odio vitae nulla ultrices iaculis.
-          </div>
-          <div className="learn-more-style">
-            Learn More
-          </div>
-        </div>
-        </div>
-        <div className="clear"></div>
-      </div>
     </div>
     <div className="images">
       <div className="saying">

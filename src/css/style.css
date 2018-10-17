@@ -101,15 +101,19 @@ body{
   padding: 40px 0px;
   padding-bottom: 0;
 }
-.learn-more-style{
-  margin-top: 30px; text-align:center; padding:15px 0px; text-align:center; line-height:55px;
+.learn-more{
+  margin-top: 30px; 
+  text-align:center; 
+  padding:15px 0px; 
+  text-align:center; 
+  line-height:55px;
   text-decoration: none;
   color:#333;
   font-weight: 400;
   border-radius: 8px 8px 0px 0px;
 }
-.learn-more-style:hover{
-  background: whitesmoke;
+.learn-more:hover{
+  background: #f2f2f2;
   cursor: pointer;
 }
 .col-2{
@@ -123,7 +127,9 @@ body{
   padding-top: 20px;
 }
 .images{
-  background: linear-gradient(140deg,rgba(210, 240, 210, 0.28),rgba(220,220,220,.3)), url(../computer-motherboard-pc-wires.png) center fixed;
+  background: linear-gradient(140deg,rgba(210, 240, 210, 0.28),
+  rgba(220,220,220,.3)), 
+  url(../architecture-business-cabinet-325229.jpg) center fixed;
   background-size: cover;
   overflow:auto;
 }
@@ -180,7 +186,13 @@ body{
   text-align:center;
 }
 .saying{
-  width:75%; margin:auto; margin-top:75px; margin-bottom:75px; border:1px solid rgba(250, 250, 250, 0.8); padding:20px; border-radius:8px; font-size:48px; text-align:center; color:#242830; background: rgba(230, 230, 230, 0.3);
+  width:75%; margin:auto; 
+  margin-top:75px; margin-bottom:75px; 
+  border:1px solid rgba(250, 250, 250, 0.8); 
+  padding:20px; border-radius:8px; 
+  font-size:48px; 
+  text-align:center; color:#242830; 
+  background: rgba(230, 230, 230, 0.3);
 }
 .intro-text{
   color: #444;
